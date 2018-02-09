@@ -1,0 +1,119 @@
+.postContainer {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.dateDiv {
+  width: 55px;
+  height: 55px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.dateDiv.red {
+  background-color: #891509;
+}
+
+.dateDiv.green {
+  background-color: #539000;
+}
+
+.dateDay {
+  font-size: 20px;
+  margin: 0;
+}
+
+.dateMonth {
+  font-size: 16px;
+  margin: 0;
+}
+
+.postDiv {
+  border-radius: 5px;
+  padding: 0 5px 0 10px;
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  max-width: calc(100% - 60px);
+}
+
+.postDiv.red {
+  background-color: #FAB3A6;
+}
+
+.postDiv.green {
+  background-color: #D8FFA4;
+}
+
+.postHeadline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 55px;
+}
+
+.postTitle {
+  font-size: 20px;
+  margin: 0;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  height: 20px;
+  width: 20px;
+  border: solid grey 1px;
+  border-radius: 5px;
+}
+
+.addCommentButton {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  border: solid grey 1px;
+  border-radius: 5px;
+}
+
+.postText {
+  font-size: 14px;
+  margin: 5px 0 0 0;
+  padding-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+.commentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.commentText {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 50%;
+  overflow-wrap: break-word;
+}
+
+.commentText.green {
+  background-color: #D8FFA4;
+}
+
+.commentText.red {
+  background-color: #FAB3A6;
+}

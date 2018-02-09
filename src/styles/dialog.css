@@ -1,0 +1,68 @@
+.formContainer {
+  z-index: 999;
+  background-color: rgba(0,0,0,0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTitle {
+  margin: 10px 0;
+}
+
+.inputBox {
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 5px;
+  resize: none;
+}
+
+.inputBox:focus::placeholder {
+  color: transparent;
+}
+
+.inputSaveBtn {
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.inputCancelBtn {
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.inputContainer{
+  border: solid black 1px;
+  border-radius: 5px;
+  background-color: #C0C0C0;
+  padding: 5px;
+  text-align: center;
+  width: 180px;
+  box-sizing: border-box;
+}
+
+.inputButtons {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-size: 12px;
+}

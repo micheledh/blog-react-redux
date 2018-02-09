@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+.appContainer {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+}

@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 5px 50px;
+}
+
+
+.titleh1 {
+  font-weight: bold;
+  margin: 0;
+  line-height: 1em;
+}
+
+.newPostButton {
+  border-right: solid grey 1px;
+  border-radius: 5px;
+}

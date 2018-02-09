@@ -1,0 +1,10 @@
+.newPostButton {
+    border: solid grey 1px;
+    border-radius: 5px;
+    align-self: flex-end;
+    background-color: white;
+}
+
+.textNewPostBtn {
+    margin-left: 7px;
+}
